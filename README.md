@@ -152,7 +152,7 @@ Como ves, tener el LAP es algo sencillo, es lanzar el "Ubertooth One" a escanear
   <img src="UAP%20Conseguido.png" alt="Foto 2" width="900"/>
 </p>
 
-Como ves aquí me recogio el "Ubertooth One" un UAP de Handshake en el aire, lo bueno que me dice esto,es que, usan en esa empresa un versión de protocolo BLE, altamente seguro, en esa infra que estaba auditando.
+Como ves aquí me recogio el "Ubertooth One" un UAP de Handshake en el aire, lo bueno que me dice esto,es que, usan en esa empresa un versión de protocolo BLE, altamente seguro, en esa infra que estaba auditando, porque de lo contrario, me devolveria la MAC completa si el protocolo BLE seria inseguro.
 
 ## ⚙️ 3.0 Usando de WireShark para BLE (Camino Fácil)
 
