@@ -171,3 +171,10 @@ sudo ubertooth-btle -f -c ./ubertooth.pipe # Comunicación BTLE del Protocolo In
 <p align="center">
   <img src="wireshark.gif" alt="Gif 2" width="900"/>
 </p>
+
+Como ves hay que configurar 2 cosas bien claras:
+
+- Captura -> Options -> Manage Interfaces -> Pipes -> Añadir -> Path Fichero "ubertooth.pipe"
+- Edit -> Preferences -> Protocols -> DLT_USER -> Edit -> DLT=147 + Payload dissecto=btle
+
+Y una vez eso edito en Wireshark, lanzas el commando para escanear el protocol BLE con el "Ubertooth One".
