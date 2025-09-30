@@ -23,9 +23,6 @@
 # CyUbertoothBreaker
 Herramienta y utilidades para **análisis pasivo** de señales Bluetooth en (investigación / auditoría autorizada / educación).
 
-## Descripción
-**CyUbertooth-Research** es un conjunto de utilidades y documentación para **capturar y analizar** tráfico Bluetooth de forma pasiva usando Ubertooth One y herramientas asociadas (Wireshark, BlueZ, etc.), la cual incluye un analizador sencillo de logs (`Analizador_rx_Ubertooth.py`) que extrae resúmenes por LAP, señal y calidad, y ayuda a priorizar objetivos para pruebas autorizadas.
-
 ---
 
 <p align="center">
@@ -33,6 +30,9 @@ Herramienta y utilidades para **análisis pasivo** de señales Bluetooth en (inv
 </p
 
 ---
+
+## Descripción
+**CyUbertooth-Research** es un conjunto de utilidades y documentación para **capturar y analizar** tráfico Bluetooth de forma pasiva usando Ubertooth One y herramientas asociadas (Wireshark, BlueZ, etc.), la cual incluye un analizador sencillo de logs (`Analizador_rx_Ubertooth.py`) que extrae resúmenes por LAP, señal y calidad, y ayuda a priorizar objetivos para pruebas autorizadas.
 
 ## 🎥 Demostración
 
