@@ -159,9 +159,12 @@ Como ves aquí me recogio el "Ubertooth One" un UAP de Handshake en el aire, lo 
 Si ya has probado los pasos anteriores, eso significa que has vivido la experencia de hacer al más bajo nivel un analisis técnico del protocolo BLE y su tráfico, en cambio, ahora ya finalmente con Wireshark, se puede mirar el tráfico en el aire con leyendo los paquetes que no estaran en RAW, sino embebidos para conocer un poco los dispositivos que hay en el ambiente, para ello, sigue los comandos junto con el video tutorial, de debajo.
 
 ```bash
+# Vamos a crear un fichero al cual se va enviar los datos que escanee el "Ubertooth One" llamado el fichero "ubertooth.pipe"
 rm -f ./ubertooth.pipe
 mkfifo ./ubertooth.pipe
 chmod 666 ./ubertooth.pipe
 ls -l ./ubertooth.pipe
-sudo ubertooth-btle -f -c ./ubertooth.pipe # Comunicación BTLE del Protocolo Interpretada (No RAW)
+
+# Con el fichero creado, habria que ejecutar el siguiente comando, pero solo, si previamente tenemos el wireshark configurado para que lo pueda leer.
+sudo ubertooth-btle -f -c ./ubertooth.pipe # Comunicación BTLE del Protocolo Interpretada en Vivo (No RAW)
 ```
