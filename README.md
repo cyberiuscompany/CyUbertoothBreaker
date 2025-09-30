@@ -51,7 +51,7 @@ Herramienta y utilidades para **análisis pasivo** de señales Bluetooth en (inv
 
 <h2 align="center">Información tratada de RAW, gestionada y optimizada</h2>
 <p align="center">
-  <img src="Foto2" alt="Tabla%20Resumen.png" width="500"/>
+  <img src="Foto2" alt="https://cyberiuscompany/CyUbertoothBreaker/Tabla%20Resumen.png" width="500"/>
 </p>
 
 <h2 align="center">Foto 3</h2>
