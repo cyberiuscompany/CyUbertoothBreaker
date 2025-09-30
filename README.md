@@ -54,16 +54,16 @@ Herramienta y utilidades para **análisis pasivo** de señales Bluetooth en (inv
   <img src="TablaResumen.png" alt="Foto 2" width="900"/>
 </p>
 
-<h2 align="center">Foto 3</h2>
-<p align="center">
-  <img src="Foto3" alt="Foto 3" width="500"/>
-</p>
-
-
 ## Requisitos de hardware
 - **Ubertooth One** (o similar) conectado por USB.  
 - Un adaptador Bluetooth HCI (`hci0`) si también quieres realizar pruebas permitidas que requieran interacción con el host (no incluido por defecto).  
 - PC con Linux (Kali/Ubuntu/Debian recomendado).
+
+<p align="center">
+  <img src="Ubertooth%20One%20y%20Antena.jpeg" alt="Foto 3" width="500"/>
+</p>
+
+<h5 align="center">*Ubertooth One del creador "https://greatscottgadgets.com/" y pudiendose comprar en https://www.amazon.es/dp/B0D548J1F1</h5>
 
 ## 🚀 Funcionalidades principales
 
