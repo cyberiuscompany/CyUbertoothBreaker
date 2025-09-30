@@ -121,7 +121,7 @@ cd CyUbertoothBreaker
 python3 python3 Analizador_rx_Ubertooth.py rx.log
 ```
 
-# 2.0 ------ HALLAR EL FHS ------ 
+## ⚙️ 2.0 ------ HALLAR EL FHS ------ 
 
 Si ya probaste el punto 1.0, te toca, ahora, hallar el FSH, que es como el Handshake entre dos dispositivos Bluethood (Cuando un dispositivo Bluethood se conectada, con otro), si lo consigues, podrías ver las MACs originales completas de cada dispositivo para avanzar a ataques mas complejos, dado que normal, solo puedes ver las 3 ultimas parejas (Es decir, el LAP), para se entienda mira el siguiente diagrama y compara con las imagenes de la herramienta.
 
