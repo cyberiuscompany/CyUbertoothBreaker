@@ -64,7 +64,7 @@ Herramienta y utilidades para **análisis pasivo** de señales Bluetooth en (inv
   <img src="Ubertooth%20One%20y%20Antena.jpeg" alt="Foto 3" width="500"/>
 </p>
 
-<h5 align="center">*Ubertooth One del creador "https://greatscottgadgets.com/" y pudiendose comprar en https://www.amazon.es/dp/B0D548J1F1</h5>
+<h5 align="center">Ubertooth One del creador "https://greatscottgadgets.com/" y pudiendose comprar en https://www.amazon.es/dp/B0D548J1F1</h5>
 
 ## 🚀 Funcionalidades principales
 
