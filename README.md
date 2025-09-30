@@ -44,14 +44,14 @@ Herramienta y utilidades para **análisis pasivo** de señales Bluetooth en (inv
 
 ## Fotos de Herramienta
 
-<h2 align="center">Foto 1</h2>
+<h2 align="center">Escaneo en RAW de comunicaciones BLE</h2>
 <p align="center">
-  <img src="Foto1" alt="Foto 1" width="500"/>
+  <img src="Escaneo%20BLE%20en%20Raw.png" alt="Foto 1" width="500"/>
 </p>
 
-<h2 align="center">Foto 2</h2>
+<h2 align="center">Información tratada de RAW, gestionada y optimizada</h2>
 <p align="center">
-  <img src="Foto2" alt="Foto 2" width="500"/>
+  <img src="Foto2" alt="Tabla%20Resumen.png" width="500"/>
 </p>
 
 <h2 align="center">Foto 3</h2>
