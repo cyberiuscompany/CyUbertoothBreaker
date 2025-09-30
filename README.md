@@ -99,6 +99,22 @@ Herramienta y utilidades para **análisis pasivo** de señales Bluetooth en (inv
 ## ⚙️ 1.0 Instalación básica con clonado 🐧 Linux / macOS
 
 ```bash
+# 1. Comprobar el que el USB se encuentre conectado
+lsusb
+
+# 2. Actualizar Firmware (No es Obligatorio si con "lsusb" ha sido detectado)
+sudo ubertooth-dfu -d firmware.dfu
+
+# 3. Instalación de Recursos sobre Kali Linux
+sudo apt install ubertooth
+ls -l /usr/bin/ubertooth
+
+# 4. Ubertooth-rx - Escuchar Tráfico
+sudo ubertooth-rx # Comunicación BTL del Protocolo en Raw
+sudo timeout 300 ubertooth-rx -z > rx.log # Generar el Fichero rx.log con el tráfico capturado durante 300 Segundos(10m)
+watch -n1 cat rx.log # Con este comandos puedes ver en vivo como se va rellenando el fichero de información
+
+# 5. Finalmmente analizar el fichero rx.log
 https://github.com/cyberiuscompany/CyUbertoothBreaker.git
 cd CyUbertoothBreaker
 python3 python3 Analizador_rx_Ubertooth.py rx.log
