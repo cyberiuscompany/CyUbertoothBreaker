@@ -10,7 +10,7 @@
 
 
 <p align="center">
-  <a href="https://github.com/cyberiuscompany/plantilla">
+  <a href="https://github.com/cyberiuscompany/CyUbertoothBreaker">
     <img src="https://flagcdn.com/w40/es.png" alt="Español" title="Español">
     <strong>Español</strong>
   </a>
