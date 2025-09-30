@@ -121,5 +121,28 @@ cd CyUbertoothBreaker
 python3 python3 Analizador_rx_Ubertooth.py rx.log
 ```
 
+# 2.0 ------ HALLAR EL FHS ------ 
+
+Si ya probaste el punto 1.0, te toca, ahora, hallar el FSH, que es como el Handshake entre dos dispositivos Bluethood (Cuando un dispositivo Bluethood se conectada, con otro), si lo consigues, podrías ver las MACs originales completas de cada dispositivo para avanzar a ataques mas complejos, dado que normal, solo puedes ver las 3 ultimas parejas (Es decir, el LAP), para se entienda mira el siguiente diagrama y compara con las imagenes de la herramienta.
+
+```bash
+BD_ADDR = [ B5 B4 ] : [ B3 ] : [ B2 B1 B0 ]
+         ^^^^^^      ^^^     ^^^^^^^^^^^
+         NAP (2 bytes)  UAP (1)   LAP (3 bytes)
+
+Índices (de izquierda a derecha, como en impresión AA:BB:CC:DD:EE:FF):
+
+- B5 = primer byte, B4 = segundo byte → NAP (2 bytes)
+- B3 = tercer byte → UAP (1 byte)
+- B2 B1 B0 = últimos tres bytes → LAP (3 bytes)
+
+# Para conseguir un FSH, lo normal es probar lo siguiente:
+
+sudo timeout 3600 ubertooth-rx -z > rx.log # Aquí se lanza un escaneo bastante mas largo (1 Hora)
+grep -Eio '([0-9a-f]{2}:){5}[0-9a-f]{2}' rx_long.log | sort | uniq -c | sort -nr # Busca MACs completas (formato con dos puntos)
+grep -Eio '\b[0-9a-f]{12}\b' rx_long.log | sort | uniq -c | sort -nr # Busca MACs completas con formato continuo (sin :)
+```
+
+
 
 
