@@ -181,7 +181,7 @@ Y una vez eso edito en Wireshark, lanzas el commando para escanear el protocol B
 
 ## ⚙️ ---------- FIN ----------
 
-En mi caso esto es lo máximo que yo he visto que ofrece el Hardware, asi que, no deja de ser un sencillo analizar de tráfico, con el cual puedes llegar a romper el tráfico, dado que trabaja hasta un nivel protocolo, en cambio, si quisieramos lanzar ataques, no solo escuchar tráfico, habría que cambiar de hardware.
+En mi caso esto es lo máximo que yo he visto que ofrece el Hardware, asi que, no deja de ser un sencillo analizar de tráfico, con el cual puedes llegar a romper el tráfico, dado que trabaja hasta un nivel de protocolo, en cambio, si quisieramos lanzar ataques, no solo escuchar tráfico, habría que cambiar de hardware.
 
 <p align="center">
   <img src="Foto Cyberius.jpg" alt="Gif 2" width="600"/>
