@@ -146,7 +146,7 @@ sudo timeout 3600 ubertooth-rx -z > rx.log # Aquí se lanza un escaneo bastante 
 grep -Eio '([0-9a-f]{2}:){5}[0-9a-f]{2}' rx_long.log | sort | uniq -c | sort -nr # Busca MACs completas (formato con dos puntos)
 grep -Eio '\b[0-9a-f]{12}\b' rx_long.log | sort | uniq -c | sort -nr # Busca MACs completas con formato continuo (sin :)
 ```
-Como ves, tener el LAP es algo sencillo, es lanzar el "Ubertooth One" a escanear, lo díficil es conseguir una MAC entera para conocer el "MAC Vendor", pero bueno, aun así, si lanzas escaneo largos, se pueden presentar un caso como el siguiente:
+Como ves, tener el LAP es algo sencillo, es lanzar el "Ubertooth One" a escanear, lo díficil es conseguir una MAC entera para conocer el "MAC Vendor", pero bueno, aun así, si lanzas escaneo largo, se pueden presentar un caso como el siguiente (tienes que parar de escanear para ver en log esa parte de "Survey Results"):
 
 <p align="center">
   <img src="UAP%20Conseguido.png" alt="Foto 2" width="900"/>
@@ -156,5 +156,5 @@ Como ves aquí me recogio el "Ubertooth One" un UAP de Handshake en el aire, lo 
 
 ## ⚙️ 3.0 Usando de WireShark para BLE (Camino Fácil)
 
-Si ya has probado los pasos anteriores, eso significa que has vivido la experencia de hacer abajo nivel un analisis técnico del protocolo BLE y sú tráfico, en cambio, ahora ya finalmente con Wireshark, se puede mirar el tráfico en el aire con las paquetes no en Raw, sino embebidos para conocer un poco los dispositivos que hay en el ambiente.
+Si ya has probado los pasos anteriores, eso significa que has vivido la experencia de hacer al más bajo nivel un analisis técnico del protocolo BLE y su tráfico, en cambio, ahora ya finalmente con Wireshark, se puede mirar el tráfico en el aire con leyendo los paquetes que no estaran en RAW, sino embebidos para conocer un poco los dispositivos que hay en el ambiente.
 
