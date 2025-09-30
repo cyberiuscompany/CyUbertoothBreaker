@@ -81,7 +81,7 @@ Herramienta y utilidades para **análisis pasivo** de señales Bluetooth en (inv
 
 ```bash
 ├── Analizador_rx_Ubertooth.py   # Script principal: genera tabla resumen y detalles a partir de rx.log
-├── rx.log                       # Ejemplo de captura / salida de ubertooth-rx (opcional, para pruebas
+├── rx.log                       # Ejemplo de captura / salida de ubertooth-rx (Para pruebas)
 ```
 ---
 
