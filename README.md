@@ -20,13 +20,14 @@
   </a>
 </p>
 
-# Plantilla
-Este es la plantilla que utilizo para la creación de mis proyectos/herramientas de ciberseguridad
+# CyUbertoothBreaker
+Herramienta y utilidades para **análisis pasivo** de señales Bluetooth (investigación / auditoría autorizada / educación)
 
-Esplicación que hace la herramienta.
+## Descripción
+**CyUbertooth-Research** es un conjunto de utilidades y documentación para **capturar y analizar** tráfico Bluetooth de forma pasiva usando Ubertooth One y herramientas asociadas (Wireshark, BlueZ, etc.).  
 
-- GitHub Pages si la herramienta tiene: https://cyberiuscompany.github.io/NOMBRE-HERRAMIENTA
-- DeepWiki de la herramienta: https://deepwiki.com/RELLENAR+INDEXAR
+Incluye un analizador sencillo de logs (`Analizador_rx_Ubertooth.py`) que extrae resúmenes por LAP, señal y calidad, y ayuda a priorizar objetivos para pruebas autorizadas.
+
 ---
 
 <p align="center">
@@ -61,30 +62,28 @@ Esplicación que hace la herramienta.
 </p>
 
 
-## Descripción
-
-**NOMBRE-HERRAMIENTA** es una herramienta.....RELLENAR. 
-
-Diseñada con un enfoque de ciberseguridad para......RELLENAR.
+## Requisitos de hardware
+- **Ubertooth One** (o similar) conectado por USB.  
+- Un adaptador Bluetooth HCI (`hci0`) si también quieres realizar pruebas permitidas que requieran interacción con el host (no incluido por defecto).  
+- PC con Linux (Kali/Ubuntu/Debian recomendado).
 
 ## 🚀 Funcionalidades principales
 
-- RELLENAR.
-- RELLENAR.
-- RELLENAR.
+- **Resumen automático de LAPs**: escanea un `rx.log` y genera una tabla ordenada con `LAP (DNI)`, número de apariciones, señal media (dBm), máximo (dBm), canal más frecuente, SNR medio y recuento de `err=0`.
+- **Muestras de detalle por LAP**: para cada LAP muestra hasta 10 líneas de ejemplo (timestamp, canal, RSSI, SNR, err) para inspección rápida.
+- **Consejos y exportación simple**: imprime recomendaciones prácticas (qué LAP priorizar) y permite fácilmente adaptar el script para exportar el resumen a CSV/JSON.
 
 ## 🧰 Tecnologías utilizadas
 
-- RELLENAR.
-- RELLENAR.
-- RELLENAR.
+- **Python 3** — script compatible con Python 3.x.
+- **Librerías estándar**: `re`, `collections` (`defaultdict`, `Counter`), `sys`, `os` (sin dependencias externas).
+- **Formato de logs**: pensado para procesar la salida de `ubertooth-rx` (ficheros `rx.log`) con campos como `LAP=`, `s=`, `snr=`, `clkn=`, `err=`.
 
 ## 📁 Estructura del proyecto
 
 ```bash
-├── fichero.py # Función Principal
-├── fichero.js # Función Principal
-├── fichero.html # Función Principal
+├── Analizador_rx_Ubertooth.py   # Script principal: genera tabla resumen y detalles a partir de rx.log
+├── rx.log                       # Ejemplo de captura / salida de ubertooth-rx (opcional, para pruebas
 ```
 ---
 
