@@ -163,5 +163,5 @@ rm -f ./ubertooth.pipe
 mkfifo ./ubertooth.pipe
 chmod 666 ./ubertooth.pipe
 ls -l ./ubertooth.pipe
-sudo ubertooth-btle -f -c ./ubertooth.pipe # Comunicación BTLE del Protocolo Interpretada
+sudo ubertooth-btle -f -c ./ubertooth.pipe # Comunicación BTLE del Protocolo Interpretada (No RAW)
 ```
