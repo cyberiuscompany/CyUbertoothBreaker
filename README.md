@@ -187,6 +187,6 @@ En mi caso esto es lo máximo que yo he visto que ofrece el Hardware, asi que, n
   <img src="Foto Cyberius.jpg" alt="Gif 2" width="600"/>
 </p>
 
-Dejo en esta ocasion mi cara, dado que soy el primero hispano hablando que ha hecho la primera publicacion en profundidad en castellano/España sobre el Hardware "Ubertooth One", siendo el primero que aporta el granito de arena.
+Dejo en esta ocasion mi cara, dado que soy el primero Hispano que ha hecho la primera publicación en profundidad en Castellano/España sobre el Hardware "Ubertooth One", siendo el primero que aporta el granito de arena.
 
 Saludos!!!
