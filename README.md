@@ -49,7 +49,7 @@ Herramienta y utilidades para **análisis pasivo** de señales Bluetooth en (inv
   <img src="Escaneo%20BLE%20en%20Raw.png" alt="Foto 1" width="500"/>
 </p>
 
-<h2 align="center">Información tratada de RAW, gestionada y optimizada</h2>
+<h2 align="center">Información tratada de tráfico RAW BLE, gestionada y optimizada</h2>
 <p align="center">
   <img src="Foto2" alt="https://cyberiuscompany/CyUbertoothBreaker/Tabla%20Resumen.png" width="500"/>
 </p>
