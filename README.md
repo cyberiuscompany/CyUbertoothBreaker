@@ -4,6 +4,7 @@
 ![Licencia](https://img.shields.io/badge/licencia-Privada-red)
 ![Uso](https://img.shields.io/badge/uso-solo%20legal-important)
 ![Python](https://img.shields.io/badge/python-3.7%2B-yellow)
+![Probado en](https://img.shields.io/badge/probado%20en-Kali%20Linux%202022.4%2B-blue)
 
 <p align="center">
   <img src="https://flagcdn.com/w40/es.png" alt="Español" title="Español">
@@ -23,9 +24,6 @@
 # CyUbertoothBreaker
 Herramienta y utilidades para **análisis pasivo** de señales Bluetooth en (investigación / auditoría autorizada / educación).
 
-## Descripción
-**CyUbertooth-Research** es un conjunto de utilidades y documentación para **capturar y analizar** tráfico Bluetooth de forma pasiva usando Ubertooth One y herramientas asociadas (Wireshark, BlueZ, etc.), la cual incluye un analizador sencillo de logs (`Analizador_rx_Ubertooth.py`) que extrae resúmenes por LAP, señal y calidad, y ayuda a priorizar objetivos para pruebas autorizadas.
-
 ---
 
 <p align="center">
@@ -33,6 +31,9 @@ Herramienta y utilidades para **análisis pasivo** de señales Bluetooth en (inv
 </p
 
 ---
+
+## Descripción
+**CyUbertooth-Research** es un conjunto de utilidades y documentación para **capturar y analizar** tráfico Bluetooth de forma pasiva usando Ubertooth One y herramientas asociadas (Wireshark, BlueZ, etc.), la cual incluye un analizador sencillo de logs (`Analizador_rx_Ubertooth.py`) que extrae resúmenes por LAP, señal y calidad, y ayuda a priorizar objetivos para pruebas autorizadas.
 
 ## 🎥 Demostración
 
@@ -44,26 +45,26 @@ Herramienta y utilidades para **análisis pasivo** de señales Bluetooth en (inv
 
 ## Fotos de Herramienta
 
-<h2 align="center">Foto 1</h2>
+<h2 align="center">Escaneo en RAW de comunicaciones BLE</h2>
 <p align="center">
-  <img src="Foto1" alt="Foto 1" width="500"/>
+  <img src="Escaneo%20BLE%20en%20Raw.png" alt="Foto 1" width="500"/>
 </p>
 
-<h2 align="center">Foto 2</h2>
+<h2 align="center">Información tratada de tráfico RAW BLE, gestionada y optimizada</h2>
 <p align="center">
-  <img src="Foto2" alt="Foto 2" width="500"/>
+  <img src="TablaResumen.png" alt="Foto 2" width="900"/>
 </p>
-
-<h2 align="center">Foto 3</h2>
-<p align="center">
-  <img src="Foto3" alt="Foto 3" width="500"/>
-</p>
-
 
 ## Requisitos de hardware
 - **Ubertooth One** (o similar) conectado por USB.  
 - Un adaptador Bluetooth HCI (`hci0`) si también quieres realizar pruebas permitidas que requieran interacción con el host (no incluido por defecto).  
 - PC con Linux (Kali/Ubuntu/Debian recomendado).
+
+<p align="center">
+  <img src="Ubertooth%20One%20y%20Antena.jpeg" alt="Foto 3" width="500"/>
+</p>
+
+<h5 align="center">Ubertooth One del creador "https://greatscottgadgets.com/" y pudiendose comprar en https://www.amazon.es/dp/B0D548J1F1</h5>
 
 ## 🚀 Funcionalidades principales
 
@@ -81,7 +82,7 @@ Herramienta y utilidades para **análisis pasivo** de señales Bluetooth en (inv
 
 ```bash
 ├── Analizador_rx_Ubertooth.py   # Script principal: genera tabla resumen y detalles a partir de rx.log
-├── rx.log                       # Ejemplo de captura / salida de ubertooth-rx (opcional, para pruebas
+├── rx.log                       # Ejemplo de captura / salida de ubertooth-rx (Para pruebas)
 ```
 ---
 
