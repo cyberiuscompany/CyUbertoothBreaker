@@ -101,12 +101,9 @@ Incluye un analizador sencillo de logs (`Analizador_rx_Ubertooth.py`) que extrae
 ## ⚙️ 1.0 Instalación básica con clonado 🐧 Linux / macOS
 
 ```bash
-git clone..........
-cd NOMBRE-HERRAMIENTA
-python3 -m venv venv (No es obligatorio este comando)
-source venv/bin/activate (No es obligatorio este comando)
-pip install -r requirements.txt
-python3 NOMBRE-HERRAMIENTA
+https://github.com/cyberiuscompany/CyUbertoothBreaker.git
+cd CyUbertoothBreaker
+python3 python3 Analizador_rx_Ubertooth.py rx.log
 ```
 
 
