@@ -162,7 +162,7 @@ Si ya has probado los pasos anteriores, eso significa que has vivido la experenc
 # Vamos a crear un fichero al cual se va enviar los datos que escanee el "Ubertooth One" llamado el fichero "ubertooth.pipe"
 rm -f ./ubertooth.pipe
 mkfifo ./ubertooth.pipe
-chmod 666 ./ubertooth.pipe
+chmod 777 ./ubertooth.pipe
 ls -l ./ubertooth.pipe
 
 # Con el fichero creado, habria que ejecutar el siguiente comando, pero solo, si previamente tenemos el wireshark configurado para que lo pueda leer.
