@@ -178,3 +178,15 @@ Como ves hay que configurar 2 cosas bien claras:
 - Edit -> Preferences -> Protocols -> DLT_USER -> Edit -> DLT=147 + Payload dissecto=btle
 
 Y una vez eso edito en Wireshark, lanzas el commando para escanear el protocol BLE con el "Ubertooth One".
+
+## ⚙️ ---------- FIN ----------
+
+En mi caso esto es lo máximo que yo he visto que ofrece el Hardware, asi que, no deja de ser un sencillo analizar de tráfico, con el cual puedes llegar a romper el tráfico, dado que trabaja hasta un nivel protocolo, en cambio, si quisieramos lanzar ataques, no solo escuchar tráfico, habría que cambiar de hardware.
+
+<p align="center">
+  <img src="Foto Cyberius.jpg" alt="Gif 2" width="600"/>
+</p>
+
+Dejo en esta ocasion mi cara, dado que soy el primero hispano hablando que ha hecho la primera publicacion en profundidad en castellano/España sobre el Hardware "Ubertooth One", siendo el primero que aporta el granito de arena.
+
+Saludos!!!
