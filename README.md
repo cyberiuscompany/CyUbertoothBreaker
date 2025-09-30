@@ -123,7 +123,11 @@ python3 python3 Analizador_rx_Ubertooth.py rx.log
 
 ## ⚙️ 2.0 Segundo Ataque buscando el FHS
 
-Si ya probaste el punto 1.0, te toca, ahora, hallar el FHS, que es como el Handshake entre dos dispositivos Bluethood (Cuando un dispositivo Bluethood se conectada, con otro), si lo consigues, podrías ver las MACs originales completas de cada dispositivo para avanzar a ataques mas complejos, dado que normal, solo puedes ver las 3 ultimas parejas (Es decir, el LAP), para se entienda mira el siguiente diagrama y compara con las imagenes de la herramienta.
+Si ya probaste el punto 1.0, te toca, ahora, hallar el FHS, que es como el Handshake entre dos dispositivos Bluethood (Cuando un dispositivo Bluethood se conectada, con otro), si lo consigues, podrías ver las MACs originales completas de cada dispositivo para avanzar a ataques mas complejos, dado que normal, solo puedes ver las 3 ultimas parejas (Es decir, el LAP), para que se entienda mira el siguiente diagrama y compara con la imagen.
+
+<p align="center">
+  <img src="TablaResumen.png" alt="Foto 2" width="900"/>
+</p>
 
 ```bash
 BD_ADDR = [ B5 B4 ] : [ B3 ] : [ B2 B1 B0 ]
