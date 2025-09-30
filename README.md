@@ -146,7 +146,10 @@ sudo timeout 3600 ubertooth-rx -z > rx.log # Aquí se lanza un escaneo bastante 
 grep -Eio '([0-9a-f]{2}:){5}[0-9a-f]{2}' rx_long.log | sort | uniq -c | sort -nr # Busca MACs completas (formato con dos puntos)
 grep -Eio '\b[0-9a-f]{12}\b' rx_long.log | sort | uniq -c | sort -nr # Busca MACs completas con formato continuo (sin :)
 ```
+Como ves, tener el LAP es algo sencillo, es lanzar el "Ubertooth One" a escanear, lo díficil es conseguir una MAC entera para conocer el "MAC Vendor", pero bueno, aun así, si lanzas escaneo largos, se pueden presentar un caso como el siguiente:
 
+<p align="center">
+  <img src="UAP%20Conseguido.png" alt="Foto 2" width="900"/>
+</p>
 
-
-
+Como ves aquí me recogio el "Ubertooth One" un UAP de Handshake en el aire, lo bueno, me dice que usan un versión de protocolo altamente segura en esa infra que estaba auditando.
