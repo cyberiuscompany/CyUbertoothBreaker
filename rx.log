@@ -1,0 +1,49 @@
+systime=1759256099 ch=77 LAP=d9d61e err=2 clkn=9576 clk_offset=3092 s=-82 n=-55 snr=-27
+systime=1759256116 ch=70 LAP=5eaa90 err=1 clkn=62864 clk_offset=2508 s=-63 n=-55 snr=-8
+systime=1759256116 ch=25 LAP=16d72a err=1 clkn=63638 clk_offset=2166 s=-73 n=-55 snr=-18
+systime=1759256116 ch=74 LAP=ecb0fb err=0 clkn=64247 clk_offset=4997 s=-81 n=-55 snr=-26
+systime=1759256127 ch=39 LAP=000fde err=2 clkn=98530 clk_offset=2144 s=-30 n=-55 snr=25
+systime=1759256134 ch=28 LAP=5eaa90 err=0 clkn=120262 clk_offset=2751 s=-62 n=-55 snr=-7
+systime=1759256135 ch=76 LAP=ecb0fb err=2 clkn=125500 clk_offset=2448 s=-81 n=-55 snr=-26
+systime=1759256145 ch= 1 LAP=6ac15e err=0 clkn=157143 clk_offset=5657 s=-70 n=-55 snr=-15
+systime=1759256147 ch=77 LAP=d93e8d err=1 clkn=161241 clk_offset=5704 s=-86 n=-55 snr=-31
+systime=1759256151 ch=44 LAP=21c21b err=0 clkn=175954 clk_offset=1891 s=-50 n=-55 snr=5
+systime=1759256162 ch=45 LAP=21c21b err=0 clkn=211666 clk_offset=1755 s=-78 n=-55 snr=-23
+systime=1759256171 ch=71 LAP=d93e8d err=1 clkn=240227 clk_offset=3324 s=-79 n=-55 snr=-24
+systime=1759256173 ch=42 LAP=5eaa90 err=0 clkn=246043 clk_offset=3521 s=-63 n=-55 snr=-8
+UAP = 0x2f found after 3 total packets.
+systime=1759256173 ch=76 LAP=5eaa90 err=0 clkn=246861 clk_offset=3522 s=-69 n=-55 snr=-14
+systime=1759256178 ch=73 LAP=700e60 err=2 clkn=261031 clk_offset=5698 s=-80 n=-55 snr=-25
+systime=1759256182 ch= 4 LAP=cd1b23 err=1 clkn=274324 clk_offset=480 s=-49 n=-55 snr=6
+systime=1759256183 ch=50 LAP=5eaa90 err=0 clkn=278984 clk_offset=3014 s=-70 n=-55 snr=-15
+systime=1759256189 ch=23 LAP=6ac15e err=2 clkn=295619 clk_offset=5540 s=-79 n=-55 snr=-24
+systime=1759256191 ch=51 LAP=21c21b err=0 clkn=304522 clk_offset=850 s=-77 n=-55 snr=-22
+systime=1759256194 ch=47 LAP=5eaa90 err=0 clkn=313417 clk_offset=3146 s=-69 n=-55 snr=-14
+systime=1759256195 ch=76 LAP=d93e8d err=0 clkn=317600 clk_offset=1215 s=-71 n=-55 snr=-16
+systime=1759256203 ch=43 LAP=21c21b err=2 clkn=342482 clk_offset=450 s=-78 n=-55 snr=-23
+systime=1759256205 ch=78 LAP=5eaa90 err=2 clkn=348666 clk_offset=2558 s=-68 n=-55 snr=-13
+systime=1759256205 ch=63 LAP=5eaa90 err=0 clkn=348826 clk_offset=2574 s=-66 n=-55 snr=-11
+systime=1759256207 ch= 4 LAP=d93e8d err=2 clkn=355320 clk_offset=3121 s=-76 n=-55 snr=-21
+systime=1759256208 ch=70 LAP=d93e8d err=2 clkn=356213 clk_offset=3158 s=-78 n=-55 snr=-23
+systime=1759256216 ch=56 LAP=5eaa90 err=1 clkn=381970 clk_offset=1994 s=-68 n=-55 snr=-13
+systime=1759256217 ch=23 LAP=5eaa90 err=0 clkn=386650 clk_offset=1951 s=-68 n=-55 snr=-13
+systime=1759256218 ch=44 LAP=21c21b err=2 clkn=388246 clk_offset=19 s=-45 n=-55 snr=10
+systime=1759256220 ch=51 LAP=21c21b err=1 clkn=395529 clk_offset=6191 s=-75 n=-55 snr=-20
+systime=1759256222 ch= 5 LAP=d93e8d err=1 clkn=401033 clk_offset=5360 s=-66 n=-55 snr=-11
+systime=1759256224 ch=72 LAP=d93e8d err=0 clkn=407333 clk_offset=5624 s=-79 n=-55 snr=-24
+systime=1759256225 ch=71 LAP=d93e8d err=1 clkn=412089 clk_offset=5859 s=-79 n=-55 snr=-24
+systime=1759256234 ch=69 LAP=d93e8d err=0 clkn=441746 clk_offset=1098 s=-69 n=-55 snr=-14
+systime=1759256244 ch=24 LAP=cd1b23 err=2 clkn=472845 clk_offset=4143 s=-70 n=-55 snr=-15
+systime=1759256245 ch=23 LAP=cd1b23 err=0 clkn=477637 clk_offset=4227 s=-79 n=-55 snr=-24
+systime=1759256261 ch=70 LAP=21c21b err=0 clkn=528081 clk_offset=4728 s=-76 n=-55 snr=-21
+Survey Results
+??:??:??:D9:D6:1E
+??:??:2F:5E:AA:90
+??:??:??:16:D7:2A
+??:??:??:EC:B0:FB
+??:??:??:00:0F:DE
+??:??:??:6A:C1:5E
+??:??:??:D9:3E:8D
+??:??:??:21:C2:1B
+??:??:??:70:0E:60
+??:??:??:CD:1B:23
