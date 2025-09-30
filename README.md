@@ -22,7 +22,7 @@
 </p>
 
 # CyUbertoothBreaker
-Herramienta y utilidades para **análisis pasivo** de señales Bluetooth en (investigación / auditoría autorizada / educación).
+Herramienta y utilidades para **análisis pasivo** de señales Bluetooth con el Hardware "Ubertooth One" para investigación, auditoría autorizada y educación, importante recalcar que este Hardware y este repositorio, explica como analizar el tráfico, pero "NO" se lanza paquetes Bluethood maliciosos, dado que el Hardware Ubertooth, no esta diseñado para ello.
 
 ---
 
@@ -152,4 +152,9 @@ Como ves, tener el LAP es algo sencillo, es lanzar el "Ubertooth One" a escanear
   <img src="UAP%20Conseguido.png" alt="Foto 2" width="900"/>
 </p>
 
-Como ves aquí me recogio el "Ubertooth One" un UAP de Handshake en el aire, lo bueno, me dice que usan un versión de protocolo altamente segura en esa infra que estaba auditando.
+Como ves aquí me recogio el "Ubertooth One" un UAP de Handshake en el aire, lo bueno que me dice esto,es que, usan en esa empresa un versión de protocolo BLE, altamente seguro, en esa infra que estaba auditando.
+
+## ⚙️ 3.0 Usando de WireShark para BLE (Camino Fácil)
+
+Si ya has probado los pasos anteriores, eso significa que has vivido la experencia de hacer abajo nivel un analisis técnico del protocolo BLE y sú tráfico, en cambio, ahora ya finalmente con Wireshark, se puede mirar el tráfico en el aire con las paquetes no en Raw, sino embebidos para conocer un poco los dispositivos que hay en el ambiente.
+
