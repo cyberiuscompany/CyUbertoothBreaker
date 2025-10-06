@@ -66,6 +66,12 @@ Herramienta y utilidades para **análisis pasivo** de señales Bluetooth con el 
 
 <h5 align="center">Ubertooth One del creador "https://greatscottgadgets.com/" y pudiendose comprar en https://www.amazon.es/dp/B0D548J1F1</h5>
 
+<p align="center">
+  <img src="Foto%20Conectado%20zoom.jpg" alt="Foto 3" width="500"/>
+</p>
+
+<h5 align="center">Ubertooth One conectado a mi ordenador tipo Torre</h5>
+
 ## 🚀 Funcionalidades principales
 
 - **Resumen automático de LAPs**: escanea un `rx.log` y genera una tabla ordenada con `LAP (DNI)`, número de apariciones, señal media (dBm), máximo (dBm), canal más frecuente, SNR medio y recuento de `err=0`.
