@@ -69,6 +69,12 @@ Tool and utilities for **passive analysis** of Bluetooth signals using the "Uber
 
 <h5 align="center">Ubertooth One from the creator "https://greatscottgadgets.com/" and available for purchase at https://www.amazon.es/dp/B0D548J1F1</h5>
 
+<p align="center">
+  <img src="Foto%20Conectado%20zoom.jpg" alt="Foto 3" width="500"/>
+</p>
+
+<h5 align="center">Ubertooth One connected to my tower computer</h5>
+
 ## 🚀 Main Features
 
 - **Automatic LAP summary**: scans an `rx.log` and generates a table sorted with `LAP (ID)`, number of appearances, average signal (dBm), maximum (dBm), most frequent channel, average SNR and count of `err=0`.
