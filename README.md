@@ -185,7 +185,7 @@ Como ves hay que configurar 2 cosas bien claras:
 
 Y una vez las ediciones/modificaciones en Wireshark, es la hora, de lanzar el commando para escanear el protocol BLE con el "Ubertooth One".
 
-## ⚙️ ---------- FIN ----------
+## ⚙️ ---------- FIN ---------- ⚙️
 
 En mi caso esto es lo máximo que yo he visto que ofrece el Hardware, asi que, no deja de ser un sencillo analizar de tráfico, con el cual puedes llegar a romper el tráfico, dado que trabaja hasta un nivel de protocolo, en cambio, si quisieramos lanzar ataques, no solo escuchar tráfico, habría que cambiar de hardware.
 
