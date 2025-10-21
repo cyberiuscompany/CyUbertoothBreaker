@@ -189,14 +189,6 @@ As you can see, two things must be configured properly:
 
 After editing Wireshark, run the command to scan the BLE protocol with the Ubertooth One.
 
-## ⚙️ ---------- END ----------
+## ⚙️ ---------- END ---------- ⚙️
 
 In my case this is the maximum I have seen that the hardware offers, so it remains a simple traffic analysis tool that can reach protocol level. If we wanted to launch attacks (not just listen to traffic), different hardware would be needed.
-
-<p align="center">
-  <img src="Foto Cyberius.jpg" alt="Gif 2" width="600"/>
-</p>
-
-I include my face here because I am the first Hispanic person who published an in-depth Spanish article about the "Ubertooth One" hardware, contributing a small piece to the community.
-
-Greetings!!!
